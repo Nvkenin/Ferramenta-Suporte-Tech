@@ -34,7 +34,7 @@ echo 18. Executar Comando Personalizado (CMD)
 echo 19. Atualizar Todos os Programas (Winget Update)
 echo 20. Sair
 echo ==============================================
-set /p opcao=Escolha uma opcao (1-22): 
+set /p opcao=Escolha uma opcao (1-20): 
 
 if "%opcao%"=="1" systeminfo | more
 if "%opcao%"=="2" sfc /scannow
@@ -59,5 +59,6 @@ if "%opcao%"=="20" exit
 
 pause
 goto MENU
+
 
 

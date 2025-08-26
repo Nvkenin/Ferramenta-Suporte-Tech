@@ -6,10 +6,11 @@ color 05
 @echo off
 :MENU
 cls
-echo ==============================================
+echo =================================================
 echo         MENU DO SUPORTE TECNICO
-echo          V2.0 - Raul Cambiatti 
-echo ==============================================
+echo Por Pablo Oliveira - Adaptado por Raul Cambiatti
+echo                  V2.0  
+echo =================================================
 echo.
 
 echo 1. Informacoes do Sistema
@@ -58,4 +59,5 @@ if "%opcao%"=="20" exit
 
 pause
 goto MENU
+
 
